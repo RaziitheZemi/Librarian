@@ -17,7 +17,7 @@ body {
   height: 100vh;
  background-image: url("../client/assets/razii_scenic_night_time_background_17c7fbf6-2970-42e1-93bf-775112e15f58.png");
 
-  background-size: fit;
+  background-size: cover;
   background-repeat: none;
 
   display: flex;
@@ -50,47 +50,43 @@ body {
 
 .wrapper {
   width: 100%;
-  padding: 15px;
-  background: radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-backdrop-filter: blur(21px);
-border: 1px solid;
-
-border-image-source: linear-gradient(114.55deg, rgba(255, 255, 255, 0.7) 2.13%, rgba(255, 255, 255, 0) 98.14%),
-radial-gradient(97.09% 224.61% at 1.38% 96.94%, rgba(0, 20, 45, 0) 0%, #00142D 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
-radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(0, 20, 45, 0) 0%, #00142D 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-
-
+  
 /* Note: backdrop-filter has minimal browser support */
-
-border-radius: 15px;
 }
 
 .ai {
-  background: #40414F;
-  background: radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-backdrop-filter: blur(21px);
-border: 1px solid;
 
-border-image-source: linear-gradient(114.55deg, rgba(255, 255, 255, 0.7) 2.13%, rgba(255, 255, 255, 0) 98.14%),
-radial-gradient(97.09% 224.61% at 1.38% 96.94%, rgba(177, 250, 222, 0) 0%, #B1FADE 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
-radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(177, 250, 222, 0) 0%, #B1FADE 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-
-
-/* Note: backdrop-filter has minimal browser support */
-
-border-radius: 15px;
 }
 
 .chat {
   width: 100%;
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 0.03% auto;
+  padding: 20px;
+  background: radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(252, 252, 252, 0.21) 0%, rgba(42, 140, 196, 0.16) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+backdrop-filter: blur(21px);
+  
+  
+  
+  
+  
+  
+ 
 
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   gap: 10px;
 
+
+/* glassmorphism */
+
+box-sizing: border-box;
+background: radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+backdrop-filter: blur(21px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 15px;
   
 }
 
@@ -124,7 +120,7 @@ border-radius: 15px;
 
   color: #dcdcdc;
   font-size: 20px;
-
+  text-shadow:  #000 1px 1px 6px;
   max-width: 100%;
   overflow-x: scroll;
 
