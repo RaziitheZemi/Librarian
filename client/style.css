@@ -15,7 +15,7 @@ body {
 #app {
   width: 100vw;
   height: 100vh;
- background-image: url("../client/assets/razii_scenic_night_time_background_17c7fbf6-2970-42e1-93bf-775112e15f58.png");
+ background-image: url("../client/assets/north star svg.svg");
 
   background-size: cover;
   background-repeat: none;
@@ -84,18 +84,16 @@ border-radius: 30px;
   height: 36px;
   border-radius: 5px;
 
-  background: linear-gradient(135deg, #BE4700 0%, #D24F00 100%);
-  box-shadow: 1px 1px 2px rgba(198, 74, 0, 0.2), -1px -1px 2px rgba(198, 74, 0, 0.2), 1px -1px 2px rgba(202, 76, 0, 0.9), -1px 1px 3px rgba(198, 74, 0, 0.9), inset -1px 1px 2px rgba(202, 76, 0, 0.3), inset 1px -1px 2px rgba(198, 74, 0, 0.5);
-
-
+  background: linear-gradient(135deg, #014C53 0%, #01444B 100%);
+box-shadow: -1px -1px 2px rgba(0, 29, 32, 0.2), 1px 1px 2px rgba(0, 29, 32, 0.2), -1px 1px 2px rgba(2, 115, 126, 0.9), 1px -1px 3px rgba(0, 29, 32, 0.9), inset 1px -1px 2px rgba(2, 115, 126, 0.3), inset -1px 1px 2px rgba(0, 29, 32, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .ai .profile {
-  background: #DB8700;
-  box-shadow: 1px 1px 2px rgba(199, 123, 0, 0.2), -1px -1px 2px rgba(199, 123, 0, 0.2), 1px -1px 2px rgba(239, 147, 0, 0.9), -1px 1px 3px rgba(199, 123, 0, 0.9), inset -1px 1px 2px rgba(239, 147, 0, 0.3), inset 1px -1px 2px rgba(199, 123, 0, 0.5);
+  background: linear-gradient(135deg, #FBC58D 0%, #E3B37F 100%);
+box-shadow: -1px -1px 2px rgba(96, 75, 54, 0.2), 1px 1px 2px rgba(96, 75, 54, 0.2), -1px 1px 2px rgba(255, 255, 214, 0.9), 1px -1px 3px rgba(96, 75, 54, 0.9), inset 1px -1px 2px rgba(255, 255, 214, 0.3), inset -1px 1px 2px rgba(96, 75, 54, 0.5);
 }
 
 .profile img {

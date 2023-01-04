@@ -1,4 +1,4 @@
-import bot from './assets/bot.svg';
+import bot from './assets/ZEMI2.svg';
 import user from './assets/user.svg';
 
 
