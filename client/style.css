@@ -18,8 +18,8 @@ body {
  background-image: url("../client/assets/north star svg.svg");
 
   background-size: cover;
-  background-repeat: none;
-
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
